@@ -1,29 +1,31 @@
 # django-getting-started
 Django Getting Started Tutorial
 
-- Installation Python, PyCharm pendant l'introduction
+# Sections in this tutorial
 
-- Création d'un projet Django
+- Python installation and PyCharm installation during the introduction
 
-- Explication des fichiers
+- Creating a Django project
 
-- Réglages de la base de données
+- Explanation of the files
+
+- Database settings
  
 - manage.py help
 
-- Serveur de développement
+- Development server
 
-- Envoyer le lien LAN
+- Send LAN link
 
-- Création des apps
+- Creation of apps
 
-- Vues: function based
+- Views: function based
 
-- Vues: class based
+- Views: class based
 
-- Vues: generic
+- Views: generic
 
-- Modèles : création d'un modèle
+- Templates: creating a template
 
 - Makemigrations
 
@@ -35,27 +37,27 @@ Django Getting Started Tutorial
 
 - createsuperuser
 
-- Site admin
+- Admin site
 
-- Les erreurs 404 et Debug=False
+- Errors 404 and Debug=False
 
 - Templates (DTL)
 
-- URLs -> Comment faire proprement
+- URLs -> How to do it properly
 
-- Formulaires 
+- Forms 
 
-- Les tests (explication des frameworks)
+- Tests (explanation of the frameworks)
 
-- Tests des méthodes
+- Method testing
 
-- Tests des vues
+- View tests
 
-- Commentaires sur Selenium -> Automatisation des navigateurs
+- Comments on Selenium -> Browser automation
 
-- Fichiers statiques
+- Static files
 
-- Fichiers media
+- Media files
 
 - admin.py
 
@@ -63,4 +65,47 @@ Django Getting Started Tutorial
 
 - Celery
 
-- Explication des packages 
+- Explanation of the interesting packages
+
+# Packages that are interesting to study
+
+- Base
+    - python-slugify
+    - argon2-cffi
+    - redis
+    - django-environ
+    - django-models-utils
+    - django-allauth
+    - django-crispy-forms
+    - django-redis
+    - django-bootstrap-datepicker-plus
+    - oauthlib
+    - psycopg2
+
+
+
+- Dev
+    - Werkzeug
+    - mypy
+    - pytest
+    - flake8
+    - flake8-isort
+    - coverage
+    - black
+    - pylint-django
+    - pre-commit
+    - django-debug-toolbar
+    - django-extensions
+    - django-coverage-plugin
+    - pytest-django
+
+
+
+- Prod
+
+    - hiredis
+    - wfastcgi
+    - django-storages
+    - django-post-office
+    - gunicorn
+    - Collectfast
